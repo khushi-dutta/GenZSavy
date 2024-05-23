@@ -30,34 +30,6 @@ if (window.matchMedia("(min-width:576px)").matches) {
 
 
 
-/* -------------
-Scroll Animation
------------ */
-
-ScrollReveal({
-  reset: true,
-  distance: "60px",
-  duration: 2500,
-  delay: 400,
-});
-ScrollReveal().reveal(".one", { delay: 100, origin: "left" });
-ScrollReveal().reveal(".two", { delay: 100, origin: "right" });
-ScrollReveal().reveal(".three", { delay: 300, origin: "left" });
-ScrollReveal().reveal(".four", { delay: 300, origin: "right" });
-ScrollReveal().reveal(".five", { delay: 300, origin: "right" });
-ScrollReveal().reveal(".six", { delay: 300, origin: "left" });
-ScrollReveal().reveal(".seven", { delay: 300, origin: "left" });
-ScrollReveal().reveal(".eight", { delay: 300, origin: "right" });
-
-ScrollReveal().reveal(".nine", { delay: 150, origin: "top" });
-ScrollReveal().reveal(".testi-container", {
-  delay: 300,
-  origin: "bottom",
-});
-
-ScrollReveal().reveal(".social-icons", { delay: 100, origin: "right" });
-ScrollReveal().reveal(".quick-links", { delay: 100, origin: "top" });
-ScrollReveal().reveal(".contact-us", { delay: 100, origin: "left" });
 
 
 
