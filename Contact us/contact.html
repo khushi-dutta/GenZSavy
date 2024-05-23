@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container list">
+        <div class="left-side">
+          <a href="/index.html">Home</a>
+          <a href="/Tracker/tracker.html">Tracker</a>
+          <a href="/Trends/trends.html">Trends</a>
+          <a href="/Blogs/blogs.html">Blogs</a>
+          <a href="/Contact us/contact.html">Contact Us</a>
+        </div>
+        <div class="right-side list">
+          <a href="/Login/login.html" class="button">Login/Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-container">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Join Us</h2>
+          <hr />
+        </div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">
+          Submit <img src="arrow_icon.png" alt="" />
+        </button>
+      </form>
+      <div class="contact-right">
+        <img src="right_img.png" alt="" />
+      </div>
+    </div>
+
+    <script>
+      function redirectToHomePage() {
+        window.location.href = "/index.html";
+      }
+    </script>
+    <footer>
+      <div class="bottom-bar">
+        <p>Made with ❤︎ &copy; All rights reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal(".contact-left", { delay: 200, origin: "left" });
+      ScrollReveal().reveal(".contact-right", { delay: 200, origin: "right" });
+    </script>
+  </body>
+</html>
