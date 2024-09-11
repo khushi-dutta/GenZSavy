@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(#212526, #626668);
+  overflow-x: hidden;
 }
 
 nav {
