@@ -263,21 +263,6 @@ AI Section
   margin: 50px;
 }
 
-.side-botpress-widget {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-}
-
-.bottom-botpress-widget {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 9999;
-}
-
 /* -------------
 testimonials
 ----------- */
